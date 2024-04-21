@@ -1,0 +1,180 @@
+    .multipleSelhift {
+  background-color: #fff;
+  color: #f2f2f2;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+    }
+
+    .selectBox {
+      position: relative;
+    }
+
+    .selectBox select {
+      width: 100%;
+      font-weight: normal;
+    }
+
+    .overSelect {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+    }
+
+    #checkBoxes {
+      display: none;
+      border: 1px #bfbfbf solid;
+      max-height: 150px; /* Set the maximum height for scrollable options */
+      overflow-y: auto; 
+      
+    }
+
+    #checkBoxes label {
+      display: block;
+    }
+
+    #checkBoxes label:hover {
+      background-color: #4F615E;
+    }
+
+    #checkDepartment {
+      display: none;
+      border: 1px #bfbfbf solid;
+      max-height: 150px; /* Set the maximum height for scrollable options */
+      overflow-y: auto; 
+    }
+
+    #checkDepartment label {
+      display: block;
+    }
+
+    #checkDepartment label:hover {
+      background-color: #4F615E;
+    }
+
+    #checkSection {
+      display: none;
+      border: 1px #bfbfbf solid;
+      max-height: 150px; /* Set the maximum height for scrollable options */
+      overflow-y: auto; 
+    }
+
+    #checkSection label {
+      display: block;
+    }
+
+    #checkSection label:hover {
+      background-color: #4F615E;
+    }
+
+    
+    #checkShift {
+      display: none;
+      border: 1px #bfbfbf solid;
+      max-height: 150px; /* Set the maximum height for scrollable options */
+      overflow-y: auto; 
+    }
+
+    #checkShift label {
+      display: block;
+    }
+
+    #checkShift label:hover {
+      background-color: #4F615E;
+    }
+      .ribbon{
+        margin-left: 20px;
+      }
+      .card{
+          background-color: #333;
+        color: white;
+        padding: 10px 10px;
+        border: none;
+        /*cursor: pointer;*/
+        /*width-left: 75px;*/
+        /*margin-bottom:10px;*/
+        /*transition: filter 0.1s ease;*/
+        /*font-size: 16px;*/
+        height: 44px;
+        border-radius: 8px;
+
+        min-width:75px;
+      }
+      .date{
+          padding: 10px;border: none;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+        width: 150px;
+        font-size: 16px;
+        display: inline-block;
+        /*vertical-align: middle;*/
+        /*height: 44px;*/
+  
+      }
+      .select{
+          padding: 10px;border: none;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+        width: 150px;
+        font-size: 16px;
+        display: inline-block;
+        background-color: #fff;
+        /*vertical-align: middle;*/
+        /*height: 44px;*/
+  
+      }
+      .multipleSelection{
+        display: inline-block;
+      }
+      .multipleSelection select{
+        padding: 10px;border: none;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+        font-size: 16px;
+        background-color: #fff;
+        width: 150px;
+        display: inline-block;
+      }
+      .multipleSelection .m_select{
+        padding: 10px;border: none;
+        border: 1px solid #ccc;
+        font-size: 16px;
+        background-color: #fff;
+        /*width: 200px;*/
+        /*display: inline-block;*/
+
+        /*vertical-align: middle;*/
+          position: absolute;
+          z-index: 1;
+      }
+      .ribbon button{
+          background-color: #333;
+        color: white;
+        padding: 10px 10px;
+        border: none;
+        cursor: pointer;
+        /*width-left: 75px;*/
+        /*margin-bottom:10px;*/
+        transition: filter 0.1s ease;
+        font-size: 16px;
+        border-radius: 8px;
+
+        min-width:75px;
+      }  
+    .custom-input {
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+      display: inline-block;
+      vertical-align: middle;
+      background-color: #fff;
+      z-index: 1;
+      width: 200px; /* Adjust the width as needed */
+    }
